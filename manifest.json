@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Bookmarker",
+    "description": "Save and manage your favorite bookmarks directly from the browser.",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "assets/bookmark.png",
+        "48": "assets/bookmark.png",
+        "128": "assets/bookmark.png"
+      }
+    },
+    "icons": {
+      "16": "assets/bookmark.png",
+      "48": "assets/bookmark.png",
+      "128": "assets/bookmark.png"
+    }
+  }
+  
